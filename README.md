@@ -17,7 +17,7 @@ To build embedded programs using this template you'll need:
 ## Using this template with GitHub CLI
 
 ```sh
-gh repo create ${repo name} --private --template https://github.com/xsuz/Device-Template -c
+gh repo create ${repo name} --template https://github.com/BirdmanTeamNaba/Device-Template -c
 cd ${repo name}
 sh ./setup.sh
 ```
