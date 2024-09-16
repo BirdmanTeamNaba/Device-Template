@@ -14,6 +14,22 @@ To build embedded programs using this template you'll need:
 
 - Github CLI (optional)
 
+## Usage
+
+1. Repositoryを作成するときに、Repository Templateとして`TeamMeltingPoppo/Device-Template`を選択してください。
+![選択画面](docs/screenshot.png)
+
+2. Repository名は、`Device-`から始まる名前にしてください。
+
+3. 作成したRepositoryに移動し、`setup.sh`を実行してください。
+
+```sh
+sh ./setup.sh
+```
+
+これで、プロジェクトの初期設定が完了しました。
+
+
 ## Using this template with GitHub CLI
 
 ```sh

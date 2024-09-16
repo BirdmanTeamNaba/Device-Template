@@ -24,5 +24,5 @@ include $(CURDIR)/../TweliteLibrary/dps310/build.mk
 
 ## ライブラリ開発
 
-必ず、commitする前にpullすること。できれば`feature/`ブランチを切って作業してくれると助かります。
+`feature/xxx`ブランチを切って作業してくれると助かります。
 ライブラリが安定してきたら、`main`ブランチに取り込んで、基板用リポジトリのほうもsubmoduleの更新したcommitを取り込んでください。
