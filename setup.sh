@@ -20,12 +20,8 @@ cat circuit/Template/Template.kicad_pro 	| sed 's/Template/'$device_name'/' > 'c
 cat circuit/Template/Template.kicad_sch 	| sed 's/Template/'$device_name'/' > 'circuit/Template/'$device_name'.kicad_sch'
 
 rm circuit/Template/Template* -rf
+rm docs -rf
 mv 'circuit/Template' 'circuit/'$device_name
-cd circuit/KicadLibrary
-git checkout main
-cd ../../src/twelite/TweliteLibrary
-git checkout main
-cd ../../../
 
 
 # initialize git submodule
