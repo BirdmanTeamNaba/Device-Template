@@ -32,4 +32,4 @@ git submodule update --init --remote
 
 echo "Removing files..."
 
-rm -r ./setup.sh ./README.md
+rm ./setup.sh ./README.md
